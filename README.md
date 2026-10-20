@@ -1,1 +1,2 @@
-# Group-4-AR-Classroom-finder-project
+This is an AR classroom finder project
+
