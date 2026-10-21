@@ -1,4 +1,4 @@
-# AR Classroom Finder 📱🗺️
+# AR Classroom Finder
 
 Welcome to our project! This app helps students easily find their way around campus.
 
