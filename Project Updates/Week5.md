@@ -75,6 +75,6 @@
 > **Paste this block into LMS:**
 > 
 > * **Repo (main):** [https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project)
-> * **Wiki Home:** n/a
+> * **Wiki Home:** https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/wiki
 > * **This Document:** Uploaded
 > * **Notes for TA:** None
