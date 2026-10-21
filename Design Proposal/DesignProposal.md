@@ -105,4 +105,6 @@ Our AR Classroom Finder eliminates the confusion of indoor navigation by overlay
 ### 3.4 Accessibility in Design
 * Visual elements maintain proper color contrast ratios for high visibility while walking.
 * Structured focus ordering for all interactive elements
-* 
+<img width="781" height="327" alt="image" src="https://github.com/user-attachments/assets/d3b4c094-198b-45f4-b842-ec75969c2c37" />
+
+
