@@ -1,18 +1,24 @@
-Channels (where decisions live): We use Microsoft Teams for our communication. We use to communicate from links to notifications about our project updates.
+\# Working Agreements
 
+&#x20;
 
+\## Communication Norms
 
-Response times: Make sure to respond within 24 hours. If we are in a busy stage where we are not done, response time needs to be speed up.
+\* \*\*Channels (where decisions live):\*\* We use Microsoft Teams for our communication...
 
+\* \*\*Response times:\*\* Make sure to respond within 24 hours...
 
+\* \*\*Meeting etiquette:\*\* Formally meet in-person...
 
-Meeting etiquette: Formally meet in-person. Meeting Face-to-Face with informal or formal verbal communications.
+\* \*\*PR (Pull Request) tone:\*\* Formal, direct, and friendly tone...
 
+&#x20;
 
+\## Inclusivity Drill – Design Improvements
 
-PR (Pull Request) tone: Formal, direct, and friendly tone will be used for pull request. 
+\* \*\*Centralize Project Updates:\*\* Link all Microsoft Teams decision logs directly to relevant GitHub Issues so context isn't lost outside of Teams. Ryan
 
+\* \*\*Design \& UI Layout:\*\* Refine the core page layout and navigation flow based on team feedback to make the app easier to use. (grant)
 
-
-
+\* \*\*Code Review Workflow:\*\* Create clear Pull Request templates to ensure all PRs maintain a formal and friendly review tone. (andrew)
 
