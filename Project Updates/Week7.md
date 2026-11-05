@@ -40,7 +40,7 @@
 
 * **Figma Design:** [View Design File](https://www.figma.com/design/v7gkLTEU9ZaeoFBZP7p59V/Prototype?node-id=0-1&p=f&t=AChaUZJXEeTxUvFK-0)
 * **Figma Prototype:** [View Interactive Prototype](https://www.figma.com/proto/v7gkLTEU9ZaeoFBZP7p59V/Prototype?node-id=0-1&p=f&t=AChaUZJXEeTxUvFK-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
-* **Coded Prototype:** https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/tree/main/Dev
+* **Coded Prototype:** [View Coded Prototype](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/tree/main/Dev)
 
 ---
 
