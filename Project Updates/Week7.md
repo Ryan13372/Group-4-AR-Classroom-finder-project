@@ -13,7 +13,7 @@
   * Ryan (Dev)
   * Andrew (Documentation)
   * Yash (Reviewer)
-* **Update #:** 1
+* **Update #:** 2
 * **Date:** 2026/10/27 *(YYYY-MM-DD)*
 * **Topic:** AR Classroom Finder — Design & Prototype Progress
 
