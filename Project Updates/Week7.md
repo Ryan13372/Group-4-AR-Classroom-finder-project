@@ -32,6 +32,7 @@
 * Completed the main Figma prototype with Search, Navigation, and Arrival screens.
 * Completed user stories, requirements, user flows, and design documentation.
 * Created the testing, accessibility, and risk sections for the project.
+* Completed a basic coding version of the prototype
 
 ---
 
