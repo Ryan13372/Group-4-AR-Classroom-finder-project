@@ -66,10 +66,10 @@
 
 | Task | Owner | Due Date |
 | :--- | :--- | :--- |
-| Complete remaining documentation | **Team** | **Week 9** |
-| Review prototype and testing results | **Team** | **Week 9** |
-| Prepare final presentation content | **Team** | **Week 9** |
-| Review project against the rubric | **Team** | **Week 9** |
+| Complete remaining documentation | **Ryan** | **Week 9** |
+| Review prototype and testing results | **Grant** | **Week 9** |
+| Prepare final presentation content | **Yash** | **Week 9** |
+| Review project against the rubric | **Andrew** | **Week 9** |
 
 ---
 
