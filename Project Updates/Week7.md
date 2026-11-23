@@ -41,7 +41,6 @@
 - **Figma Design:** [View Design File](https://www.figma.com/design/v7gkLTEU9ZaeoFBZP7p59V/Prototype?node-id=0-1&p=f&t=AChaUZJXEeTxUvFK-0)
 - **Figma Prototype:** [View Interactive Prototype](https://www.figma.com/proto/v7gkLTEU9ZaeoFBZP7p59V/Prototype?node-id=0-1&p=f&t=AChaUZJXEeTxUvFK-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
 - **Coded Prototype:** [View Coded Prototype](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/tree/main/Dev)
-- **Project Documentation & Requirements:** [View Docs Folder](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/tree/main/docs) *(Update path if needed)*
 - **Project Wiki (User Flows, Testing & Accessibility):** [View Project Wiki](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/wiki)
 
 ---
@@ -89,5 +88,4 @@
 
 - **Repo (main):** [Group-4-AR-Classroom-finder-project](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project)
 - **Wiki Home:** [Group-4-AR-Classroom-finder-project Wiki](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/wiki)
-- **This Document:** [Update 2 in `/docs/updates`](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/tree/main/docs/updates) *(Update with exact file link once uploaded)*
-- **Any Notes for TA:** Addressed all feedback from Update 1 (added member emails, expanded topic, added multiple repo/wiki evidence links, assigned individual owners and exact dates).
+- **Any Notes for TA:** Addressed all feedback from Update 1 (added member emails, expanded topic, added wiki evidence links, assigned individual owners and exact dates).
