@@ -7,7 +7,7 @@
 ## Cover Info
 
 - **Team Name:** Group 4
-- **Project Title:** AR Classroom Finder
+- **Project Title:** AR Classroom Finder: An Augmented Reality Navigation System
 - **Member Information:**
   - Grant (Coordinator) — grantchen@my.yorku.ca
   - Ryan (Dev) — rlee828@my.yorku.ca
