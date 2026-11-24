@@ -42,6 +42,7 @@
 - **Figma Prototype:** [View Interactive Prototype](https://www.figma.com/proto/v7gkLTEU9ZaeoFBZP7p59V/Prototype?node-id=0-1&p=f&t=AChaUZJXEeTxUvFK-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
 - **Coded Prototype:** [View Coded Prototype](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/tree/main/Dev)
 - **Project Wiki (User Flows, Testing & Accessibility):** [View Project Wiki](https://github.com/Ryan13372/Group-4-AR-Classroom-finder-project/wiki)
+- <img width="1008" height="575" alt="image" src="https://github.com/user-attachments/assets/8dfb8ae8-d111-4449-a897-290fdb8027f1" />
 
 ---
 
