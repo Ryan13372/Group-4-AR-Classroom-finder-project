@@ -1,23 +1,29 @@
 package teamwork_project_wireframe;
 
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.CardLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
+import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
 public class WireframeFrame extends JFrame implements FocusListener, ActionListener {
 	
 	//================Constants==================
-	private static final String[] ALLOWED_ROOMS = {"4000", "4005", "4010"};
+	private static final String[] ALLOWED_ROOMS = {"4000", "4005", "4010", "4015",
+			"4020", "4025", "4030", "4040", "4045", "4050", "4055", "4060", "4070", "4075",
+			"4085", "4090", "4095", "4100", "4205", "4210", "4215", "4500", "4505", "4510",
+			"4515", "4520"};
 	
 	//==================Fields====================
 	private CardLayout cardLayout = new CardLayout();
@@ -30,6 +36,9 @@ public class WireframeFrame extends JFrame implements FocusListener, ActionListe
 	private JTextField searchBar;
 	private JButton searchButton;
 	private JComboBox<String> buildingSearch;
+	private JPanel searchResultsPanel;
+	private JScrollPane searchResultsScroll;
+	private JLabel resultsLabel;
 	
 	//----------------Map Content--------------------
 	private JPanel mapContentPanel;
@@ -86,6 +95,23 @@ public class WireframeFrame extends JFrame implements FocusListener, ActionListe
 		topPanel.setBackground(Color.red);
 		topPanel.setBounds(0, 0, 500, 50);
 		
+		//set up the results label
+		resultsLabel = new JLabel("Results:");
+		resultsLabel.setBackground(Color.white);
+		resultsLabel.setBounds(0, 0, 50, 25);
+		
+		//set up the search results panel
+		searchResultsPanel = new JPanel();
+		searchResultsPanel.setLayout(null);
+		searchResultsPanel.setBounds(0, 0, 500, 580);
+		searchResultsPanel.setBackground(Color.white);
+		
+		//set up the scrolling
+		searchResultsScroll = new JScrollPane(searchResultsPanel);
+		searchResultsScroll.setBounds(0, 150, 500, 580);
+		searchResultsScroll.setBackground(Color.white);
+		searchResultsScroll.getVerticalScrollBar().setUnitIncrement(16);
+		
 		//set up the content panel
 		homeContentPanel = new JPanel();
 		homeContentPanel.setBackground(Color.white);
@@ -96,6 +122,7 @@ public class WireframeFrame extends JFrame implements FocusListener, ActionListe
 		homeContentPanel.add(topPanel);
 		homeContentPanel.add(bottomPanel);
 		homeContentPanel.add(searchBarPanel);
+		homeContentPanel.add(searchResultsScroll);
 		
 		//set up the frame
 		add(homeContentPanel);
@@ -132,16 +159,66 @@ public class WireframeFrame extends JFrame implements FocusListener, ActionListe
 	}
 
 	private void search() {
-		if (isIntegerInRange(searchBar.getText()))
-			System.out.println(buildingSearch.getSelectedItem() + searchBar.getText());
-		else
+		
+		//validate the input
+		if (isIntegerInRange(searchBar.getText())) {
+			searchResultsPanel.removeAll();
+			ArrayList<String> matches = new ArrayList<String>();
+			for (String s : ALLOWED_ROOMS) {
+				matches.add(s);
+			}
+			
+			//check the input for matches
+			for (int i = 0; i < searchBar.getText().length(); i++) {
+				char c = searchBar.getText().charAt(i);
+				matches = checkIndices(c, i, matches);
+				
+			}
+			
+			//if the room could not be found
+			if (matches.isEmpty())
+				System.out.println("This room could not be found");
+			
+			//add the results 
+			searchResultsPanel.add(resultsLabel);
+			for (int i = 0; i < matches.size(); i++) {
+				String s = matches.get(i);
+				JButton button = new JButton(s);
+				button.setBackground(Color.white);
+				button.setBounds(0, 25 + i * 50, 500, 50);
+				button.addActionListener(this);
+				searchResultsPanel.add(button);
+				
+			}
+			
+			//update the screen
+			searchResultsPanel.setPreferredSize(new Dimension(480, 25 + 50 * matches.size()));
+			revalidate();
+			repaint();
+		} else
 			System.out.println("This is not allowed");
 	}
 
+	private ArrayList<String> checkIndices(char c, int i, ArrayList<String> matches) {
+		
+		//check if the room matches
+		for (int j = 0; j < ALLOWED_ROOMS.length; j++) {
+			if (c == '-') {
+				continue;
+			} else if (ALLOWED_ROOMS[j].charAt(i) != c) {
+				matches.remove(ALLOWED_ROOMS[j]);
+			}
+		}
+		return matches;
+	}
+
 	private boolean isIntegerInRange(String text) {
+		
+		//validate input
 		for (char c : text.toCharArray()) {
-			if (!Character.isDigit(c) || c != '-')
+			if (!Character.isDigit(c) && c != '-') {
 				return false;
+			}
 		}
 		return true;
 	}
